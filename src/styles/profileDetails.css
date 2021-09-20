@@ -1,12 +1,14 @@
 .profile-details-container{
     background-color: #ffffff;
     border-radius: 1rem;
+    height: 100%;
+    padding-bottom: 5px;
 }
 .img-and-name-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 0rem 1rem;
 
 }
 .img-holder{
@@ -36,9 +38,55 @@
     margin: 3px;
     padding: 2px;
 }
-.details-container{
+.detail-container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+.details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: #e7eef1fa;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 5px;
+}
+.details-data-container{
+    font-size: 16px;
+    font-weight: 400;
+    color: #151f24;
+    padding: 2px;
+    margin-bottom: 0px;
+}
+.icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 1rem 0.4rem;
+    
+}
+.icons{
+    margin: 10px;
+    padding: 4px;
+}
+.button-container{
+    height: 2.7rem;
+    width: 90%;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.button-contents{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin: 1px;
+    padding: 1rem;
 }
