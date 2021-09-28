@@ -90,3 +90,74 @@
     margin: 1px;
     padding: 1rem;
 }
+.dataStorage-container{
+    padding: 15px;
+}
+.ant-tabs-tab{
+    font-size: 16px;
+}
+.ant-tabs-tab:hover{
+    color: #3f87a6;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #3f87a6;
+}
+.ant-tabs-ink-bar{
+    background-color: #3f87a6;
+}
+.resume-container{
+    padding: 10px;
+}
+.resume-header{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    margin: 1px;
+}
+.experience-heading{
+    font-size: 23px;
+    font-weight: 600;
+    color: #000;
+    margin: 1px;
+}
+.experience-container{
+    margin-top: 5px;
+}
+.experience-header{
+    font-size: 18px;
+    font-weight: 500;
+    color: #3f87a6;
+    margin: 1px;
+}
+.company-name{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin: 1px;
+}
+ul{
+    margin-block-start: 0em;
+    padding-inline-start: 30px;
+}
+.bar{
+    height: auto;
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.bar-container{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    color: #000;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+.skills-container{
+    margin-top: 10px;
+}
+.skills-container-heading{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin: 1px;
+}
