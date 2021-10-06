@@ -16,12 +16,12 @@ const languages = [
     },
     {
         key: 3,
-        name: 'Bootstrap',
+        name: 'git',
         level: '80'
     },
     {   
         key: 4,
-        name: 'git',
+        name: 'MongoDB',
         level: '70'
     },
     {
@@ -34,11 +34,6 @@ const languages = [
         name: 'Express',
         level: '70'
     },
-    {
-        key: 7,
-        name: 'Mongo DB',
-        level: '70'
-    }
 ]
 
 export {languages}

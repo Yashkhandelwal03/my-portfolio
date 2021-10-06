@@ -152,12 +152,61 @@ ul{
     padding: 5px;
     font-size: 15px;
 }
+.skills-details{
+    background-color: rgb(194, 189, 189);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
 .skills-container{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 .skills-container-heading{
     font-size: 22px;
     font-weight: 600;
     color: #000;
     margin: 1px;
+}
+.values-container{
+    font-size: 16px;
+    /* font-weight: 400; */
+    color: #000;
+}
+
+/*About Page*/
+
+.about-container{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.about-contents{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    margin: 1px;
+}
+
+.services-header{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 20px;
+}
+
+.services-container{
+    margin: 2rem;
+    background-color: rgb(235, 230, 230);
+    border-radius: 5px;
+    transition: transform .2s;
+}
+
+.skills-details:hover{
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
 }
